@@ -1,10 +1,19 @@
-# Astro Starter Kit: Minimal
+# my-app
+
+An Astro project.
+
+## Getting Started
+
+This project requires [pnpm](https://pnpm.io) 11.x and Node.js >=24.
 
 ```sh
-pnpm create astro@latest -- --template minimal
+git clone https://github.com/derrickobedgiu1/void-astro-starter
+cd my-app
+pnpm install
+pnpm dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+The dev server starts at `localhost:4321`.
 
 ## 🚀 Project Structure
 
