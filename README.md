@@ -1,13 +1,13 @@
 # my-app
 
-An Astro project.
+An [Astro](https://astro.build) & [Void](https://void.cloud) wired starter project.
 
 ## Getting Started
 
 This project requires [pnpm](https://pnpm.io) 11.x and Node.js >=24.
 
 ```sh
-git clone https://github.com/derrickobedgiu1/void-astro-starter
+git clone https://github.com/derrickobedgiu1/void-astro-starter my-app
 cd my-app
 pnpm install
 pnpm dev
@@ -38,9 +38,9 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `pnpm install`         | Installs dependencies                            |
 | `pnpm dev`             | Starts local dev server at `localhost:4321`      |
 | `pnpm build`           | Build your production site to `./dist/`          |
 | `pnpm preview`         | Preview your build locally, before deploying     |
