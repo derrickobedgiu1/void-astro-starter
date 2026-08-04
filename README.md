@@ -47,6 +47,16 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
+## 🚀 Deploy
+
+This project uses the `@astrojs/cloudflare` adapter, so it deploys to your Cloudflare account via Wrangler rather than `void deploy --backend cloudflare` (currently doesn't yet support framework SSR).
+
+```sh
+pnpm run deploy
+```
+
+First deploy provisions any missing bindings (e.g. the `SESSION` KV namespace) automatically and writes their IDs back to `wrangler.jsonc`.
+
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
