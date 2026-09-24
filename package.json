@@ -19,6 +19,6 @@
   },
   "devDependencies": {
     "@astrojs/cloudflare": "^14.1.7",
-    "void": "^0.10.11"
+    "void": "^0.20.0"
   }
 }
