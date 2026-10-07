@@ -1,7 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
-  "schedule": ["every weekend"],
+  "extends": [
+    "config:recommended",
+    "schedule:weekly",
+    "group:allNonMajor"
+  ],
   "timezone": "UTC",
-  "prConcurrentLimit": 5
+  "prConcurrentLimit": 10
+  "rangeStrategy": "bump",
+  "minimumReleaseAge": "3 days"
 }
